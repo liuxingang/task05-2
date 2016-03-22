@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="myjs.js"></script>
+</head>
+<body>
+    <!--容器-->
+    <div id="wrapper">
+        <h1>简易计算器</h1>
+        <!--main-->
+        <div class="main">
+            <p id="p1">第1个数：<input type="text" id="oneNumber"/></p>
+
+            <p id="p2">第2个数：<input type="text" id="twoNumber"/></p>
+
+            <p id="p3">
+                <input type="button" onclick="count(1)" value="+"/>
+                <input type="button" onclick="count(2)" value="-"/>
+                <input type="button" onclick="count(3)" value="*"/>
+                <input type="button" onclick="count(4)" value="/"/>
+            </p>
+
+            <p id="p4">结果：<span id="result"></span></p>
+
+            <p id="warn"></p>
+        </div>
+
+    </div>
+</body>
+</html>

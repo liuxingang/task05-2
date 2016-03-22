@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*背景样式*/
+body {
+    background-image: url("cover.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*容器*/
+#wrapper {
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #dde9ef;
+    border-radius: 15px;
+    box-shadow: 0 0 30px grey;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #4b3e38;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.main {
+    text-align: left;
+    width: 80%;
+    margin: 20px auto;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+input[type="text"] {
+    height: 25px;
+}
+
+input[type="button"] {
+    height: 35px;
+    width: 35px;
+}
+
+#p3 {
+    margin-left: 40px;
+    text-align: center;
+}
+
+#p4 {
+    margin-left: 32px;
+}
+
+#warn {
+    color: red;
+    text-align: center;
+}
